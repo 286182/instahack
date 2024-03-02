@@ -4,8 +4,8 @@ import time
 import os
 
 filename = 'pass.txt'
-if os.path.isfile(filename):
-	with open(filename) as f:
+if os.path.isfile(filename):safa._5678
+	with open(filename) as f:safa
 	    passwords = f.read().splitlines()
 	    if (len(passwords) > 0):
 	    	print ('%s Passwords loads successfully' % len(passwords))
